@@ -41,6 +41,11 @@ int KmpSearch(string s, string p)
     int pLen = p.length();  
     int *next = new int[pLen];
     GetNextval(p, next);
+    for(int t = 0; t < pLen; t++)
+    {
+        cout << next[t] << " ";
+    }
+    cout << endl;
     while (i < sLen && j < pLen)  
     {  
         //①如果j = -1，或者当前字符匹配成功（即S[i] == P[j]），都令i++，j++      
