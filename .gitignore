@@ -1,0 +1,8 @@
+*.out
+.vscode/*
+
+.vscode/.browse.VC.db
+
+.vscode/.browse.VC.db-wal
+
+2.out
