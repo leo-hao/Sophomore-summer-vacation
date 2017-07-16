@@ -32,7 +32,7 @@ void get_nextval(string T,int nextval[])
 
 int kmp(string S, string T, int nextval[])
 {   
-    int i = 1;
+    int i = 1;  
     int j = 1;
     get_nextval(T,nextval);
     while(i <= S.length() && j <= T.length())
